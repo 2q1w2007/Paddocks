@@ -1,152 +1,157 @@
+html body {
+    font-size: 30px;
+    /* font-size x 24.5 =总宽度*/
+}
+
 .bigcircle {
-	width: 3em;
-	height: 3em;
-	-moz-border-radius: 3.5em;
-	-webkit-border-radius: 3.5em;
-	border-radius: 3.5em;
+    width: 1.5em;
+    height: 1.5em;
+    -moz-border-radius: 3.5em;
+    -webkit-border-radius: 3.5em;
+    border-radius: 3.5em;
 }
 
 .smallcircle {
-	width: 3em;
-	height: 3em;
-	-moz-border-radius: 1.5em;
-	-webkit-border-radius: 1.5em;
-	border-radius: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    -moz-border-radius: .75em;
+    -webkit-border-radius: .75em;
+    border-radius: .75em;
 }
 
 .small {
-	background: #CCCCCC;
-	margin: 0em;
+    background: #CCCCCC;
+    margin: 0em;
 }
 
 .big {
-	background: #AAAAAA;
-	margin: 0em;
-	padding: 2em;
+    background: #AAAAAA;
+    margin: 0em;
+    padding: 1em;
 }
 
 .l1 {
-	position: relative;
-	left: 0em;
-	top: 0em;
+    position: relative;
+    left: 0em;
+    top: 0em;
 }
 
 .l2 {
-	position: relative;
-	left: 21em;
-	top: -7em;
+    position: relative;
+    left: 10.5em;
+    top: -3.5em;
 }
 
 .l3 {
-	position: relative;
-	left: 42em;
-	top: -14em;
+    position: relative;
+    left: 21em;
+    top: -7em;
 }
 
 .hline1 {
-	width: 24em;
-	height: 3em;
-	background: #99ff66;
-	-moz-border-radius: 1.5em;
-	-webkit-border-radius: 1.5em;
-	border-radius: 1.5em;
-	position: relative;
-	top: 2em;
-	left: 2em;
+    width: 12em;
+    height: 1.5em;
+    background: #99ff66;
+    -moz-border-radius: .75em;
+    -webkit-border-radius: .75em;
+    border-radius: .75em;
+    position: relative;
+    top: 1em;
+    left: 1em;
 }
 
 .lline1 {
-	width: 3em;
-	height: 24em;
-	background: #99ff66;
-	-moz-border-radius: 1.5em;
-	-webkit-border-radius: 1.5em;
-	border-radius: 1.5em;
-	position: relative;
-	top: 2em;
-	left: 2em;
+    width: 1.5em;
+    height: 12em;
+    background: #99ff66;
+    -moz-border-radius: .75em;
+    -webkit-border-radius: .75em;
+    border-radius: .75em;
+    position: relative;
+    top: 1em;
+    left: 1em;
 }
 
 .hline2 {
-	width: 24em;
-	height: 3em;
-	background: #ff9966;
-	-moz-border-radius: 1.5em;
-	-webkit-border-radius: 1.5em;
-	border-radius: 1.5em;
-	position: relative;
-	top: 2em;
-	left: 2em;
+    width: 12em;
+    height: 1.5em;
+    background: #ff9966;
+    -moz-border-radius: .75em;
+    -webkit-border-radius: .75em;
+    border-radius: .75em;
+    position: relative;
+    top: 1em;
+    left: 1em;
 }
 
 .lline2 {
-	width: 3em;
-	height: 24em;
-	background: #ff9966;
-	-moz-border-radius: 1.5em;
-	-webkit-border-radius: 1.5em;
-	border-radius: 1.5em;
-	position: relative;
-	top: 2em;
-	left: 2em;
+    width: 1.5em;
+    height: 12em;
+    background: #ff9966;
+    -moz-border-radius: .75em;
+    -webkit-border-radius: .75em;
+    border-radius: .75em;
+    position: relative;
+    top: 1em;
+    left: 1em;
 }
 
 .linebeforeh1l1 {
-	position: absolute;
-	top: 0em;
-	left: 0em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
 }
 
 .linebeforeh1l2 {
-	position: absolute;
-	top: 0em;
-	left: 21em;
+    position: absolute;
+    top: 0em;
+    left: 10.5em;
 }
 
 .linebeforeh1l3 {
-	position: absolute;
-	top: 0em;
-	left: 42em;
+    position: absolute;
+    top: 0em;
+    left: 21em;
 }
 
 .linebeforeh2l1 {
-	position: absolute;
-	top: 21em;
-	left: 0em;
+    position: absolute;
+    top: 10.5em;
+    left: 0em;
 }
 
 .linebeforeh2l2 {
-	position: absolute;
-	top: 21em;
-	left: 21em;
+    position: absolute;
+    top: 10.5em;
+    left: 10.5em;
 }
 
 .linebeforeh2l2 {
-	position: absolute;
-	top: 21em;
-	left: 42em;
+    position: absolute;
+    top: 10.5em;
+    left: 21em;
 }
 
 .linebeforeh3l1 {
-	position: absolute;
-	top: 42em;
-	left: 0em;
+    position: absolute;
+    top: 21em;
+    left: 0em;
 }
 
 .linebeforeh3l2 {
-	position: absolute;
-	top: 42em;
-	left: 21em;
+    position: absolute;
+    top: 21em;
+    left: 10.5em;
 }
 
 .linebeforeh3l3 {
-	position: absolute;
-	top: 42em;
-	left: 42em;
+    position: absolute;
+    top: 21em;
+    left: 21em;
 }
 
-h1l1 {
-	position: absolute;
-	top: 0em;
-	left: 0em;
+.out {
+    position: relative;
+    width: 24.5em;
+    height: 24.5em;
 }
